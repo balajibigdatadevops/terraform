@@ -15,7 +15,7 @@ provider "awsvpctest" {
 }
 
 ##resource block
-resource "aws_vpc" "awsvpctest" {
+resource "aws_vpc" "balajivpc" {
     cidr_block = "10.0.0.0/16"
     tags = {
         "Name" = "Balajivpc"
